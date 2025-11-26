@@ -1,15 +1,20 @@
-import { Canvas } from "@react-three/fiber";
 import useMacbookStore from "../store";
 import clsx from "clsx";
-import { Box, OrbitControls } from "@react-three/drei";
-import MacbookModal14 from "./models/Macbook-14";
+import { Canvas } from "@react-three/fiber";
 
-export const ProductViewer = () => {
+import StudioLights from "./three/StudioLights.jsx";
+import ModalSwitcher from "./three/ModalSwitcher.jsx";
+import { useMediaQuery } from "react-responsive";
+
+const ProductViewer = () => {
   const { color, scale, setColor, setScale } = useMacbookStore();
+
+  const isMobile = useMediaQuery({ query: "(max-width: 1024px)" });
 
   return (
     <section id="product-viewer">
       <h2>Take a closer look.</h2>
+
       <div className="controls">
         {/*<p className="info">Macbook Pro | Available in 14" & 16" in Space Gray & Dark colors</p>*/}
 
@@ -60,15 +65,14 @@ export const ProductViewer = () => {
         id="canvas"
         camera={{ position: [0, 2, 5], fov: 50, near: 0.1, far: 100 }}
       >
+        <StudioLights />
 
-        <ambientLight intensity={1} />
-
-        {/* <Box position={[0, 0, 0]} scale={10 * scale} material-color={color} /> */}
-
-        <MacbookModal14 scale={0.06} position={[0, 0, 0]} />
-
-        <OrbitControls enableZoom={false} />
+        <ModalSwitcher
+          scale={isMobile ? scale - 0.03 : scale}
+          isMobile={isMobile}
+        />
       </Canvas>
     </section>
   );
 };
+export default ProductViewer;
