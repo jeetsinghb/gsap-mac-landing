@@ -1,16 +1,79 @@
-# React + Vite
+# 🚀 MacBook Landing Page — React, Three.js & GSAP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully animated, Apple-style product landing page built with **React**, **Three.js**, and **GSAP**, inspired by the _“Master Creative Frontend in 2 Hours”_ tutorial by JavaScript Mastery.
 
-Currently, two official plugins are available:
+This project showcases smooth 3D interactions, scroll-based animations, responsive sections, and a sleek modern UI — bringing together creative frontend development techniques and cutting-edge web technologies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎨 **Modern Apple-style UI/UX**
+- 🖥️ **Interactive 3D MacBook Model** using Three.js
+- 🌀 **GSAP Scroll Animations** for immersive transitions
+- ⚛️ **React Component Architecture**
+- 📱 **Fully Responsive Layout**
+- ⚡ **Vite-powered Development**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack & Skills
+
+**Frontend & UI:**  
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![clsx](https://img.shields.io/badge/clsx-000000?style=for-the-badge&logo=react&logoColor=white)
+
+**3D Graphics & Animations:**  
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![React Three Fiber](https://img.shields.io/badge/React_Three_Fiber-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
+
+**State Management:**  
+![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=javascript&logoColor=white)
+
+**Build & Tooling:**  
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Coderabbit CLI](https://img.shields.io/badge/Coderabbit_CLI-000000?style=for-the-badge&logo=github&logoColor=white)
+
+**Code Quality & Type Checking:**  
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+
+---
+
+## 📁 Project Structure
+
+├── public/<br>
+├── src/<br>
+│ ├── components/<br>
+│ ├── models/<br>
+│ ├── sections/<br>
+│ ├── utils/<br>
+│ ├── App.jsx<br>
+│ └── main.jsx<br>
+├── package.json<br>
+├── vite.config.js<br>
+└── README.md
+
+---
+
+## 📝 Developer Note
+
+This project is **not a cloned repository**.  
+I built the entire application **from the ground up**, following the concepts taught in the tutorial and implementing them independently.  
+
+Throughout the process, I gained **practical, real-world exposure** to:
+- structuring React applications,
+- integrating 3D models using Three.js,
+- orchestrating high-performance animations with GSAP,
+- and creating immersive, production-style landing pages.
+
+This project reflects both my **hands-on learning** and my ability to apply modern front-end technologies in a professional manner.
+
+---
+
+🙌 Credits
+
+This project was created following the tutorial:
+"Master Creative Frontend in 2 Hours with React, Three.js & GSAP"
+by JavaScript Mastery.
