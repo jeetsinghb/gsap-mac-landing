@@ -20,22 +20,24 @@ This project showcases smooth 3D interactions, scroll-based animations, responsi
 ## 🛠️ Tech Stack & Skills
 
 **Frontend & UI:**  
-React 19, React DOM, TailwindCSS, clsx
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![clsx](https://img.shields.io/badge/clsx-000000?style=for-the-badge&logo=react&logoColor=white)
 
 **3D Graphics & Animations:**  
-Three.js, React Three Fiber (@react-three/fiber), Drei (@react-three/drei), GSAP, @gsap/react
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+![React Three Fiber](https://img.shields.io/badge/React_Three_Fiber-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
 
 **State Management:**  
-Zustand
-
-**Responsive Design:**  
-react-responsive
+![Zustand](https://img.shields.io/badge/Zustand-000000?style=for-the-badge&logo=javascript&logoColor=white)
 
 **Build & Tooling:**  
-Vite, @vitejs/plugin-react
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Coderabbit CLI](https://img.shields.io/badge/Coderabbit_CLI-000000?style=for-the-badge&logo=github&logoColor=white)
 
 **Code Quality & Type Checking:**  
-ESLint, eslint-plugin-react-hooks, eslint-plugin-react-refresh, @types/react, @types/react-dom
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
 
 ---
 
