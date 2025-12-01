@@ -27,6 +27,8 @@ export const Hero = () => {
         autoPlay
         muted
         playsInline
+        disablePictureInPicture
+        disableRemotePlayback
       ></video>
 
       <button>Buy</button>
