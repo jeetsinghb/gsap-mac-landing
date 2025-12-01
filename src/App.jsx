@@ -1,9 +1,6 @@
-import { lazy } from "react";
-
 import NavBar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
-// import ProductViewer from "./components/ProductViewer.jsx";
-const ProductViewer = lazy(() => import("./components/ProductViewer.jsx"));
+import ProductViewer from "./components/ProductViewer.jsx";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import Showcase from "./components/Showcase.jsx";
