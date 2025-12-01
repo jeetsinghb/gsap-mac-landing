@@ -1,11 +1,17 @@
+import { lazy } from "react";
+
 import NavBar from "./components/Navbar.jsx";
 import Hero from "./components/Hero.jsx";
-import ProductViewer from "./components/ProductViewer.jsx";
+// import ProductViewer from "./components/ProductViewer.jsx";
+const ProductViewer = lazy(() => import("./components/ProductViewer.jsx"));
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
-import Showcase from "./components/Showcase.jsx";
-import Performance from "./components/Performance.jsx";
-import Features from "./components/Features.jsx";
+// import Showcase from "./components/Showcase.jsx";
+const Showcase = lazy(() => import("./components/Showcase.jsx"));
+// import Performance from "./components/Performance.jsx";
+const Performance = lazy(() => import("./components/Performance.jsx"));
+// import Features from "./components/Features.jsx";
+const Features = lazy(() => import("./components/Features.jsx"));
 import Highlights from "./components/Highlights.jsx";
 import Footer from "./components/Footer.jsx";
 
@@ -16,10 +22,10 @@ const App = () => {
     <main>
       <NavBar />
       <Hero />
-      <ProductViewer />
+      {/* <ProductViewer /> */}
       <Showcase />
       <Performance />
-      <Features />
+      {/* <Features /> */}
       <Highlights />
       <Footer />
     </main>

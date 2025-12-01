@@ -20,7 +20,7 @@ export default function MacbookModel14(props) {
     "/models/macbook-14-transformed.glb"
   );
 
-  const texture = useTexture("/screen.png");
+  const texture = useTexture("/screen.webp");
   useMemo(() => {
     texture.colorSpace = SRGBColorSpace;
     texture.needsUpdate = true;

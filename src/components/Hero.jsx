@@ -11,10 +11,17 @@ export const Hero = () => {
     <section id="hero">
       <div>
         <h1>MacBook Pro</h1>
-        <img src="/title.png" alt="MacBook Title" />
+        <img
+          fetchPriority="high"
+          src="/title.webp"
+          alt="MacBook Title"
+          width="932"
+          height="165"
+        />
       </div>
 
       <video
+        preload="auto"
         ref={videoRef}
         src="/videos/hero.mp4"
         autoPlay
